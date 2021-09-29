@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/airlert/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/airlert/static/js/main.2821b7a5.chunk.js",
-    "main.js.map": "/airlert/static/js/main.2821b7a5.chunk.js.map",
+    "main.css": "/airlert/static/css/main.4a823865.chunk.css",
+    "main.js": "/airlert/static/js/main.15b3f7ca.chunk.js",
+    "main.js.map": "/airlert/static/js/main.15b3f7ca.chunk.js.map",
     "runtime-main.js": "/airlert/static/js/runtime-main.20d11081.js",
     "runtime-main.js.map": "/airlert/static/js/runtime-main.20d11081.js.map",
     "static/js/2.df3b2e28.chunk.js": "/airlert/static/js/2.df3b2e28.chunk.js",
@@ -12,14 +12,14 @@
     "index.html": "/airlert/index.html",
     "service-worker.js": "/airlert/service-worker.js",
     "service-worker.js.map": "/airlert/service-worker.js.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/airlert/static/css/main.8c8b27cf.chunk.css.map",
+    "static/css/main.4a823865.chunk.css.map": "/airlert/static/css/main.4a823865.chunk.css.map",
     "static/js/2.df3b2e28.chunk.js.LICENSE.txt": "/airlert/static/js/2.df3b2e28.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/airlert/static/media/logo.103b5fa1.svg"
+    "static/media/wind.4a6449b2.png": "/airlert/static/media/wind.4a6449b2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.20d11081.js",
     "static/js/2.df3b2e28.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.2821b7a5.chunk.js"
+    "static/css/main.4a823865.chunk.css",
+    "static/js/main.15b3f7ca.chunk.js"
   ]
 }
