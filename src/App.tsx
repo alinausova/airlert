@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './wind.png';
 import './App.css';
+import "tailwindcss/tailwind.css"
+import {Header} from "./components/Layout/Header";
+import {MapView} from "./components/MapView";
+import {JMapView} from "./components/JMapView";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          AirLert is going to be here soon
-        </p>
-      </header>
+    <div>
+      <Header/>
+      <JMapView/>
     </div>
   );
 }
