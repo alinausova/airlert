@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { useState } from 'react';
-import MapGl, {GeolocateControl, NavigationControl, ScaleControl, FullscreenControl, Layer, Source} from 'react-map-gl';
-import filteredData from "../data/filtered_data.json"
+import MapGl, {NavigationControl, ScaleControl, FullscreenControl, Layer, Source} from 'react-map-gl';
 import filteredData4sec from "../data/filtered_data_4sec.json"
+import {Legend} from "./Legend";
+import {Chart} from "./Chart";
 
 
 export const mapAccessToken = 'pk.eyJ1IjoiYWxpbmF1c292YSIsImEiOiJja3FzNXBhbzQxbjZ1MnducG1ha2JibXkyIn0.RBNyK-wDRQpFj_8yDARbSA'
@@ -139,47 +140,47 @@ export function JMapView() {
     top: 10
   };
 
-  const logValues = () => {
-    console.log(realGeojson)
-    console.log(filteredData)
-  }
-
   // @ts-ignore
   return (
-    <div>
+    <div className="relative bg-white flex">
+      <div className="">
     <MapGl
       {...viewport}
       width='100vw'
-      height='66vh'
+      height='80vh'
       mapStyle="mapbox://styles/mapbox/light-v9"
       onViewportChange={setViewport}
       mapboxApiAccessToken={mapAccessToken}
     >
-      {/*<GeolocateControl*/}
-      {/*  style={geolocateStyle}*/}
-      {/*  positionOptions={positionOptions}*/}
-      {/*  trackUserLocation*/}
-      {/*  auto*/}
-      {/*/>*/}
       <NavigationControl style={navControlStyle} />
       <ScaleControl maxWidth={100} unit="metric" style={scaleControlStyle} />
       <FullscreenControl style={fullscreenControlStyle} />
-
-      {/*<Source id="my-data" type="geojson" data={geojson}>*/}
-      {/*  <Layer {...heatmapLayer}/>*/}
-      {/*</Source>*/}
-
-      {/*<Source id="my-data2" type="geojson" data={geojson2}>*/}
-      {/*  <Layer {...heatmapLayer2}/>*/}
-      {/*</Source>*/}
-
       <Source id="my-data2" type="geojson" data={realGeojson}>
         <Layer {...layerStylePoints}/>
       </Source>
     </MapGl>
-      <button onClick={logValues} >
-        log
-      </button>
+        <Legend/>
+        {/*<div className="flex flex-col absolute z-50 bottom-20 m-4">*/}
+        {/*  <button className="rounded h-10 m-1 bg-blue-400">*/}
+        {/*    <span className="p-6 text-white font-semibold">*/}
+        {/*      Air Quality*/}
+        {/*    </span>*/}
+        {/*  </button>*/}
+
+        {/*  <button className="rounded border-2 border-gray-500 h-10 m-1">*/}
+        {/*    <span className="p-6">*/}
+        {/*      PM2.5*/}
+        {/*    </span>*/}
+        {/*  </button>*/}
+        {/*  <button className="rounded border-2 border-gray-500 h-10 m-1">*/}
+        {/*    <span className="p-6">*/}
+        {/*      VOCx*/}
+        {/*    </span>*/}
+        {/*  </button>*/}
+
+
+        {/*</div>*/}
+      </div>
     </div>
   );
 }

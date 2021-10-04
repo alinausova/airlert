@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" >
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" version="1.1" viewBox="0 0 419.58 297.675">
+<metadata>
+</metadata>
+<defs>
+<linearGradient y1="156.253" id="LinearGradient" x1="-0.630156" y2="156.253" x2="465.942" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -17.9875 -4.27804)">
+<stop stop-color="#77beea" offset="0.226873"/>
+<stop stop-color="#91d94a" offset="0.682115"/>
+<stop stop-color="#f4f6fa" offset="0.964606"/>
+</linearGradient>
+<linearGradient y1="147.995" id="LinearGradient_2" x1="37.4423" y2="147.995" x2="131.932" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.529238 0 0 0.529238 -129.944 -86.5886)">
+<stop stop-color="#ffffff" offset="0"/>
+<stop stop-color="#ffffff" offset="1"/>
+</linearGradient>
+</defs>
+<g id="Layer 1">
+<path d="M-18.6176-7.18581L447.955-7.18581L447.955+311.135L-18.6176+311.135L-18.6176-7.18581Z" fill-rule="evenodd" fill="url(#LinearGradient)" opacity="1"/>
+<path d="M-60.6924+10.823L-75.809-4.29351C-76.1753-4.65988-76.6721-4.86567-77.1902-4.86567C-77.6643-4.86567-78.1192-4.69172-78.474-4.38181L-80.6069-6.51464C-75.5111-12.9607-75.882-22.403-81.9071-28.4282C-81.9071-28.4282-81.9071-28.4282-81.9072-28.4282C-88.3518-34.8728-98.8381-34.873-105.283-28.4282C-111.742-21.9688-111.743-11.5129-105.283-5.05251C-99.3432+0.887131-89.8953+1.39101-83.3704-3.7534L-81.2362-1.61919C-81.9074-0.851992-81.8795+0.314098-81.1481+1.04555L-66.0316+16.162C-65.2693+16.9244-64.032+16.9246-63.2692+16.162L-61.9811+14.874C-61.981+14.8739-61.9809+14.8738-61.9809+14.8738C-61.9809+14.8738-61.9808+14.8736-61.9807+14.8735L-60.6926+13.5854C-59.9297+12.8226-59.9297+11.5859-60.6924+10.823Z" fill-rule="evenodd" fill="url(#LinearGradient_2)" opacity="1"/>
+</g>
+</svg>
