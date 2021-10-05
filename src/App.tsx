@@ -12,7 +12,7 @@ function App() {
           <div className="bg-white text-gray-700 h-screen">
             <Header/>
             <JMapView/>
-            <Chart/>
+            {/*<Chart/>*/}
           </div>
     // <Router>
     //   <Switch>
