@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/airscout/static/css/main.91d6e8e8.chunk.css",
-    "main.js": "/airscout/static/js/main.5306f683.chunk.js",
-    "main.js.map": "/airscout/static/js/main.5306f683.chunk.js.map",
+    "main.js": "/airscout/static/js/main.6f83057e.chunk.js",
+    "main.js.map": "/airscout/static/js/main.6f83057e.chunk.js.map",
     "runtime-main.js": "/airscout/static/js/runtime-main.836d459b.js",
     "runtime-main.js.map": "/airscout/static/js/runtime-main.836d459b.js.map",
     "static/css/2.3c70fc9f.chunk.css": "/airscout/static/css/2.3c70fc9f.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.3c70fc9f.chunk.css",
     "static/js/2.7c88bb57.chunk.js",
     "static/css/main.91d6e8e8.chunk.css",
-    "static/js/main.5306f683.chunk.js"
+    "static/js/main.6f83057e.chunk.js"
   ]
 }
