@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {},
   },
+  colors: {
+    asBlue: "#77BEEA",
+    asGreen: "#91D94A",
+    asGray: "#F4F6FA",
+  },
   variants: {
     extend: {},
   },

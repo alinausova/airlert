@@ -15,3 +15,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+airScoutGradient {
+  background: linear-gradient(to right, #77BEEA 16.223175823688507%, 39.52789679169655%, #91D94A 62.83261775970459%, 79.95708286762238%, #F4F6FA 97.08154797554016%)
+}

@@ -1,0 +1,38 @@
+.trails-main {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    /*padding: 30% 5% 5%;*/
+}
+
+.trails-text {
+    position: relative;
+    width: 100%;
+    /*height: 110px;*/
+    /*line-height: 110px;*/
+    color: black;
+    font-size: 52px;
+    font-weight: 800;
+    /*letter-spacing: -9px;*/
+    will-change: transform, opacity;
+    overflow: hidden;
+    text-align: left;
+}
+
+.trails-text > div {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 730px) {
+    .trails-text {
+        font-size: 36px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .trails-text {
+        font-size: 28px;
+    }
+}
