@@ -147,7 +147,7 @@ export function JMapView() {
     <MapGl
       {...viewport}
       width='100vw'
-      height='92vh'
+      height='88vh'
       mapStyle="mapbox://styles/mapbox/light-v9"
       onViewportChange={setViewport}
       mapboxApiAccessToken={mapAccessToken}
