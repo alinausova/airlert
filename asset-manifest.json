@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/airscout/static/css/main.c342814e.chunk.css",
-    "main.js": "/airscout/static/js/main.8b3fb78f.chunk.js",
-    "main.js.map": "/airscout/static/js/main.8b3fb78f.chunk.js.map",
-    "runtime-main.js": "/airscout/static/js/runtime-main.081620e0.js",
-    "runtime-main.js.map": "/airscout/static/js/runtime-main.081620e0.js.map",
-    "static/css/2.87c2a2e2.chunk.css": "/airscout/static/css/2.87c2a2e2.chunk.css",
-    "static/js/2.636eb073.chunk.js": "/airscout/static/js/2.636eb073.chunk.js",
-    "static/js/2.636eb073.chunk.js.map": "/airscout/static/js/2.636eb073.chunk.js.map",
-    "static/js/3.3ee8abe1.chunk.js": "/airscout/static/js/3.3ee8abe1.chunk.js",
-    "static/js/3.3ee8abe1.chunk.js.map": "/airscout/static/js/3.3ee8abe1.chunk.js.map",
+    "main.css": "/airscout/static/css/main.e3e40de7.chunk.css",
+    "main.js": "/airscout/static/js/main.be494b1f.chunk.js",
+    "main.js.map": "/airscout/static/js/main.be494b1f.chunk.js.map",
+    "runtime-main.js": "/airscout/static/js/runtime-main.836d459b.js",
+    "runtime-main.js.map": "/airscout/static/js/runtime-main.836d459b.js.map",
+    "static/css/2.d2fa6b5d.chunk.css": "/airscout/static/css/2.d2fa6b5d.chunk.css",
+    "static/js/2.7c88bb57.chunk.js": "/airscout/static/js/2.7c88bb57.chunk.js",
+    "static/js/2.7c88bb57.chunk.js.map": "/airscout/static/js/2.7c88bb57.chunk.js.map",
+    "static/js/3.18c7296d.chunk.js": "/airscout/static/js/3.18c7296d.chunk.js",
+    "static/js/3.18c7296d.chunk.js.map": "/airscout/static/js/3.18c7296d.chunk.js.map",
     "index.html": "/airscout/index.html",
     "service-worker.js": "/airscout/service-worker.js",
     "service-worker.js.map": "/airscout/service-worker.js.map",
-    "static/css/2.87c2a2e2.chunk.css.map": "/airscout/static/css/2.87c2a2e2.chunk.css.map",
-    "static/css/main.c342814e.chunk.css.map": "/airscout/static/css/main.c342814e.chunk.css.map",
-    "static/js/2.636eb073.chunk.js.LICENSE.txt": "/airscout/static/js/2.636eb073.chunk.js.LICENSE.txt",
+    "static/css/2.d2fa6b5d.chunk.css.map": "/airscout/static/css/2.d2fa6b5d.chunk.css.map",
+    "static/css/main.e3e40de7.chunk.css.map": "/airscout/static/css/main.e3e40de7.chunk.css.map",
+    "static/js/2.7c88bb57.chunk.js.LICENSE.txt": "/airscout/static/js/2.7c88bb57.chunk.js.LICENSE.txt",
     "static/media/logogrey.eecfee84.svg": "/airscout/static/media/logogrey.eecfee84.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.081620e0.js",
-    "static/css/2.87c2a2e2.chunk.css",
-    "static/js/2.636eb073.chunk.js",
-    "static/css/main.c342814e.chunk.css",
-    "static/js/main.8b3fb78f.chunk.js"
+    "static/js/runtime-main.836d459b.js",
+    "static/css/2.d2fa6b5d.chunk.css",
+    "static/js/2.7c88bb57.chunk.js",
+    "static/css/main.e3e40de7.chunk.css",
+    "static/js/main.be494b1f.chunk.js"
   ]
 }
